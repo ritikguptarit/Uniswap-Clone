@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+
+.PoolConnect_box{
+    background-color: #1E1E1E;
+    padding: 1rem 2rem;
+    border-radius: .5rem;
+}
+
+.PoolConnect_box_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.PoolConnect_box_header h2{
+    font-size: 2rem;
+}
+
+.PoolConnect_box_header p{
+    background-image: linear-gradient(144deg,#f771f5, #5B42F3 50%,#00DDEB);
+    padding: .5rem 1rem;
+    border-radius: .5rem;
+    color: #1E1E1E;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.PoolConnect_box_Middle{
+    text-align: center;
+}
+
+.PoolConnect_box_Middle button{
+    background-image: linear-gradient(144deg,#f771f5, #5B42F3 50%,#00DDEB);
+    color: #1E1E1E;
+    border: 0;
+    font-family: 'Bruno Ace SC', cursive;
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding: .5rem 3rem;
+    border-radius: 4rem;
+    cursor: pointer;
+    margin-top: .5rem;
+}
+
+.PoolConnect_box_info{
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    gap: 1rem;
+    line-height: 0;
+    margin-top: 2rem;
+}
+
+.PoolConnect_box_info_right,
+.PoolConnect_box_info_left{
+    border: 1px solid #f771f5;
+    padding: .3rem;
+    border-radius: .5rem;
+}
+
+.PoolConnect_box_info_right,
+.PoolConnect_box_info_left p{
+    font-size: 10px;
+    line-height: 10px;
+}
+
+/* ///NEW CSS */
+
+
+.PoolConnect_box_liquidity_box{
+   border: 1px solid #7a7b75;
+    border-radius: .5rem;
+    padding: 1rem;
+    line-height: 0;
+}
+
+
+.PoolConnect_box_liquidity_list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 0;
+}
+
+.mark{
+  background-color: #7a7b75;
+  color: #1E1E1E;
+  padding: .5rem;
+  border-radius: .5rem;
+}
+
+.paragraph{
+    font-size: 1.2rem;
+}
+
+.highlight{
+    background-color: #7a7b75;
+    border-radius: .5rem;
+    padding: 1rem .5rem;
+    color: #1E1E1E;
+}
+
+@media only screen and (max-width: 35em){
+    .hide{
+        display: none;
+    }
+    .PoolConnect_box_info{
+        line-height: 1;
+        width: 100%;
+        font-size: .8rem;
+    }
+
+}
